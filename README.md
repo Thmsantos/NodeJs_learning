@@ -22,7 +22,7 @@
 ## :information_source: Run it in Netlify -> Link below
 :link: **- https://dashboard-auto-car.netlify.app/**
 
-## Squad Mesla - Members
+## Squad TechnoTrends - Members
 
 👨‍💻: **- [Matheus Alvarez](https://github.com/MatheusAlvarez "GitHub do Matheus")**
 

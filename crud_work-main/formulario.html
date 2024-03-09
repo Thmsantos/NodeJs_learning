@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="formulario.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>Notas</title>
+</head>
+<body>
+    <div>
+        <p id="titulo">Escola Mundial</p>
+        <p id="subtitulo">Cadastro de Notas</p>
+        <br>
+    </div>
+
+    <form>
+        
+            <div class="campo">
+                <label for="nomealuno">Nome Aluno</label>
+                <input type="text" name="nomealuno" id="nomealuno" required>
+            </div>
+
+            <div class="campo">
+                <label for="notafinal">Nota Final</label>
+                <input type="text" name="notafinal" id="notafinal" required>
+            </div>
+
+            <div class="campo">
+                <label for="turma">Turma</label>
+                <select id="turma" name="turma">
+                <option value="1º Ano">1º Ano</option>
+                <option value="2º Ano">2º Ano</option>
+                <option value="3º Ano">3º Ano</option>
+                </select>
+            </div>
+
+
+        
+        <button class="botao" type="submit">Criar</button>
+        <button class="botao" type="submit">Ler</button>
+        <button class="botao" type="submit">Atualizar</button>
+        <button class="botao" type="submit">Deletar</button>
+
+    </form>
+</body>
+</html>

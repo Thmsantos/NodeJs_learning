@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #ffffff;
+}
+
+#titulo{
+    margin: 10px 14px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    
+}
+
+#subtitulo{
+    margin: 10px 14px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+input[type=text], select{
+    width: 95%;
+    padding: 12px 20px;
+    margin: 10px 14px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+.campo{
+    font-family: 'Poppins', sans-serif;
+    margin: 10px 14px;
+}
+
+.botao{
+    width: 20%;
+    background-color: #000000;
+    color: white;
+    padding: 14px 20px;
+    margin: 10px 30px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    
+}
